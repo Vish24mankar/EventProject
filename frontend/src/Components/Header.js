@@ -1,22 +1,26 @@
 import React from 'react'
 import ConstaData from '../Shared/ConstaData'
-
+// import { TiSocialFacebook,TiSocialTwitter } from "react-icons/ti";
+// import { SlSocialInstagram } from "react-icons/sl";
 const Header = () => {
   return (
     <div className='mt-3'>
       <div className='Socialmedia flex justify-between items-center bg-blue-400'>
         <div className='followus text-black pt-1 pb-1 ml-10'>
           <a href="https://www.facebook.com/" target='blank'>
-              <i class="fa fa-facebook-f fa3"></i>
+              <i class="fa fa-facebook-f fa3"></i>  
+              {/* <TiSocialFacebook /> */}
           </a>  &nbsp;
           <a href="https://www.whatsapp.com/" target='blank'>
               <i class="fa fa-whatsapp fa3"></i>
           </a>  &nbsp;
           <a href="https://www.instagram.com/" target='blank'>
-              <i class="fa fa-instagram fa3"></i>
+              <i class="fa fa-instagram fa3"></i> 
+              {/* <SlSocialInstagram /> */}
           </a>  &nbsp;
           <a href="https://www.twitter.com/" target='blank'>
               <i class="fa fa-twitter fa3"></i>
+              {/* <TiSocialTwitter /> */}
           </a>  &nbsp; 
           <a href="https://www.google.com/" target='blank'>
               <i class="fa fa-google fa3"></i>
@@ -38,11 +42,13 @@ const Header = () => {
           <li><a href='' className='text-black'>About</a></li>
           <li><a href='' className='text-black'>Gallery</a></li>
           <li><a href='' className='text-black'>Services</a></li>
-          <img 
-            src={ConstaData.LOGO} 
-            alt="galleryimg" 
-            className='rounded-full w-16 h-16' 
-            />
+          <a href=''>
+            <img 
+              src={ConstaData.LOGO} 
+              alt="galleryimg" 
+              className='rounded-full w-16 h-16' 
+              />
+          </a>
           <li><a href='' className='text-black'>Themes</a></li>
           <li><a href='' className='text-black'>Package</a></li>
           <li><a href='' className='text-black'>PartyIdea</a></li>
