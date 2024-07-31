@@ -44,7 +44,7 @@ const Header = () => {
           <li><a href='' className='text-black'>Services</a></li>
           <a href=''>
             <img 
-              src={ConstaData.LOGO} 
+              src={ConstaData.LOGOO} 
               alt="galleryimg" 
               className='rounded-full w-16 h-16' 
               />
