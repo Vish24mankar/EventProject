@@ -1,6 +1,8 @@
-import LOGO from '../assest/Logo.jpeg'
+import LOGO from '../assest/Logo.jpeg';
+import LOGOO  from '../assest/LOGOO.jpeg';
 const ConstaData =  {
-    LOGO
+    LOGO,
+    LOGOO
 }
 
 export default ConstaData
