@@ -7,8 +7,9 @@ function App() {
         {/* <p>Event Frontend</p> */}
         {/* <h1>VS Events of Happiness</h1> */}
         <BrowserRouter>
+        <Header />
             <Routes>
-                <Route path='' element={<Header />} />
+                {/* <Route path='' element={<Header />} /> */}
             </Routes>
         </BrowserRouter>
         

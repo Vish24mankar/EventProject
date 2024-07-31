@@ -35,7 +35,7 @@ const Header = () => {
           {/* <span>sveventsplanner@gmail.com</span> */}
         </div>
       </div>
-      <div className='container mx-auto flex items-center justify-between bg-gray-100 p-2'>
+      <div className='mx-auto flex items-center justify-between bg-gray-100 p-2'>
         <nav className='flex items-center space-x-4 ml-80'>
           <ul className='flex space-x-10 items-center justify-between'>
           <li><a href='' className='text-black'>Home</a></li>
