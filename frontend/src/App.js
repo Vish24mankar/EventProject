@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header';
+import Footer from './Components/Footer';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
         <BrowserRouter>
             <Routes>
                 <Route path='' element={<Header />} />
+              
+
             </Routes>
+            <Footer />
         </BrowserRouter>
         
     </div>
