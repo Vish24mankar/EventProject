@@ -10,7 +10,7 @@ function App() {
       {/* <br/><br/><br/> */}
       <main className='pt-16 bg-sl[min-w-[calc(100vh)]]'>
 
-        <br/>
+        {/* <br/> */}
           <Outlet/>
       </main>
       <Footer />
